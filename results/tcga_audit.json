@@ -1,0 +1,112 @@
+{
+ "n_reports": 9523,
+ "n_patients": 9523,
+ "paper_labelled_in_14_regex_types": 4786,
+ "paper_high_low": [
+  3521,
+  1265
+ ],
+ "paper_type_regex_vs_true_agreement": 0.6851232762223151,
+ "paper_heldout_composition": {
+  "THCA": {
+   "THCA": 64,
+   "HNSC": 2,
+   "DLBC": 1,
+   "CHOL": 1,
+   "LGG": 1
+  },
+  "SARC": {
+   "SARC": 116,
+   "ACC": 1,
+   "GBM": 1,
+   "MESO": 1
+  },
+  "LUSC": {
+   "LUSC": 220,
+   "LUAD": 37,
+   "CESC": 3,
+   "THYM": 3,
+   "STAD": 2
+  }
+ },
+ "paper_low_n": 1265,
+ "paper_low_relabelled_by_corrected": {
+  "low": 697,
+  "unlabelled": 424,
+  "high": 144
+ },
+ "paper_high_relabelled_by_corrected": {
+  "high": 3219,
+  "unlabelled": 291,
+  "low": 11
+ },
+ "GBM_paper_label_counts": {
+  "1.0": 146,
+  "0.0": 134
+ },
+ "corrected_labelled_in_14_true_types": 3274,
+ "corrected_high_low": [
+  2707,
+  567
+ ],
+ "corrected_per_type": {
+  "BLCA": [
+   355,
+   7
+  ],
+  "BRCA": [
+   399,
+   91
+  ],
+  "COAD": [
+   95,
+   48
+  ],
+  "GBM": [
+   279,
+   3
+  ],
+  "HNSC": [
+   129,
+   56
+  ],
+  "KIRC": [
+   143,
+   9
+  ],
+  "LIHC": [
+   93,
+   68
+  ],
+  "LUAD": [
+   180,
+   51
+  ],
+  "LUSC": [
+   213,
+   11
+  ],
+  "PRAD": [
+   204,
+   1
+  ],
+  "SARC": [
+   175,
+   26
+  ],
+  "STAD": [
+   154,
+   6
+  ],
+  "THCA": [
+   5,
+   89
+  ],
+  "UCEC": [
+   283,
+   101
+  ]
+ },
+ "agreement_paper_vs_corrected_where_both_defined": 0.9636574074074075,
+ "corrected_still_matching_after_redaction": 0
+}

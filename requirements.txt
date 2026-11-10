@@ -1,0 +1,11 @@
+torch>=2.4
+transformers>=4.57
+peft>=0.21
+numpy
+pandas
+scipy
+scikit-learn
+scikit-survival
+matplotlib
+openpyxl
+requests

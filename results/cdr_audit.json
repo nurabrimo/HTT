@@ -1,0 +1,319 @@
+{
+ "n_reports": 9523,
+ "matched_to_cdr": 9523,
+ "cdr_type_equals_project": 1.0,
+ "registry_grade_values_14types": {
+  "[Not Available]": 4001,
+  "G3": 964,
+  "G2": 953,
+  "High Grade": 379,
+  "G1": 225,
+  "G4": 97,
+  "GX": 31,
+  "Low Grade": 8,
+  "[Unknown]": 3
+ },
+ "registry_grade_defined_14types": 1673,
+ "grade_text_vs_registry_per_type": {
+  "BLCA": {
+   "label_paper": {
+    "n": 364,
+    "agree": 0.9945054945054945,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 2
+   },
+   "label_corr": {
+    "n": 361,
+    "agree": 0.997229916897507,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 1
+   },
+   "reg_high_low": [
+    368,
+    8
+   ],
+   "reg_G2": 0
+  },
+  "BRCA": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "COAD": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "GBM": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "HNSC": {
+   "label_paper": {
+    "n": 154,
+    "agree": 0.974025974025974,
+    "text_high_reg_low": 4,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 155,
+    "agree": 0.9870967741935484,
+    "text_high_reg_low": 2,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    130,
+    60
+   ],
+   "reg_G2": 308
+  },
+  "KIRC": {
+   "label_paper": {
+    "n": 229,
+    "agree": 0.759825327510917,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 55
+   },
+   "label_corr": {
+    "n": 144,
+    "agree": 0.9930555555555556,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 1
+   },
+   "reg_high_low": [
+    279,
+    12
+   ],
+   "reg_G2": 226
+  },
+  "LIHC": {
+   "label_paper": {
+    "n": 127,
+    "agree": 0.889763779527559,
+    "text_high_reg_low": 2,
+    "text_low_reg_high": 12
+   },
+   "label_corr": {
+    "n": 124,
+    "agree": 0.9032258064516129,
+    "text_high_reg_low": 2,
+    "text_low_reg_high": 10
+   },
+   "reg_high_low": [
+    128,
+    45
+   ],
+   "reg_G2": 163
+  },
+  "LUAD": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "LUSC": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "PRAD": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "SARC": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "STAD": {
+   "label_paper": {
+    "n": 148,
+    "agree": 0.972972972972973,
+    "text_high_reg_low": 4,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 148,
+    "agree": 0.9797297297297297,
+    "text_high_reg_low": 3,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    210,
+    9
+   ],
+   "reg_G2": 134
+  },
+  "THCA": {
+   "label_paper": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "label_corr": {
+    "n": 0,
+    "agree": null,
+    "text_high_reg_low": 0,
+    "text_low_reg_high": 0
+   },
+   "reg_high_low": [
+    0,
+    0
+   ],
+   "reg_G2": 0
+  },
+  "UCEC": {
+   "label_paper": {
+    "n": 350,
+    "agree": 0.9828571428571429,
+    "text_high_reg_low": 2,
+    "text_low_reg_high": 4
+   },
+   "label_corr": {
+    "n": 357,
+    "agree": 0.9915966386554622,
+    "text_high_reg_low": 2,
+    "text_low_reg_high": 1
+   },
+   "reg_high_low": [
+    325,
+    99
+   ],
+   "reg_G2": 122
+  }
+ },
+ "label_paper_vs_registry": {
+  "n": 1372,
+  "agree": 0.9380466472303207,
+  "kappa": 0.7768499525456939
+ },
+ "label_corr_vs_registry": {
+  "n": 1289,
+  "agree": 0.9829325058184639,
+  "kappa": 0.9340904019932319
+ },
+ "registry_G2_text_labels": {
+  "label_paper": {
+   "unlabelled": 667,
+   "low": 218,
+   "high": 68
+  },
+  "label_corr": {
+   "unlabelled": 849,
+   "high": 58,
+   "low": 46
+  }
+ },
+ "stage_reg_defined": 6090,
+ "stage_text_defined": 694,
+ "stage_text_vs_registry": {
+  "n": 435,
+  "exact": 0.7425287356321839,
+  "adv_agree": 0.8206896551724138
+ },
+ "os_defined": 9519,
+ "os_events": 2772,
+ "pfi_defined": 9517,
+ "pfi_events": 3121,
+ "still_matching_grade_or_stage_after_full_redaction": 0
+}
