@@ -20,9 +20,6 @@ evaluates it, and five open-weight language models, in four settings:
 httx/        analysis package (models, training, benchmarks, runners, aggregation, figures)
 cluster/     Slurm job scripts (Duke Compute Cluster) and NVIDIA Brev worker scripts
 data/        synthetic benchmarks (CSV) and instructions/scripts to obtain the public datasets
-results/     aggregate results (summary_rev1.json, summary_rev2.json), audits, Bayes ceilings,
-             and run-level outputs for the synthetic and TCGA experiments
-figures/     Figures 11-15 (PNG and PDF)
 ```
 
 ### Key modules
@@ -60,5 +57,6 @@ set-level AUROCs by a median of 0.008, which is why results are reported over te
 ## Data use
 
 GENIE BPC and MSK-CHORD data are **not** included. Their terms do not permit redistribution (GENIE terms of
-access; MSK-CHORD CC BY-NC-ND 4.0). `results/summary_rev2.json` contains only aggregate statistics for those
-analyses. GENIE BPC patient-level outputs are available on request to users with GENIE access.
+access; MSK-CHORD CC BY-NC-ND 4.0). Run-level outputs for the openly
+redistributable data are provided with the article as Supplementary Data S2; GENIE BPC patient-level outputs are
+available on request to users with GENIE access.
